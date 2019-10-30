@@ -18,8 +18,8 @@
 #include "chassis_ms_decode.h"
 
 #define TARGET_BLANK      0
-// RED     ==  WHITE 
-// BLUE    ==  BLANK  
+//// RED     ==  WHITE 
+//// BLUE    ==  BLANK  
 int target_base = 34;    
 location_t location_ms; 
 gimbal_t  gimbal_yaw;
