@@ -1,0 +1,309 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: TI 1010024850@qq.com, TI, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  E:\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+E:\2019_LN\2019_ThrowRobot\427_GimbalControl\MDK-ARM\427_GimbalControl.uvprojx
+Project File Date:  10/29/2019
+
+<h2>Output:</h2>
+Build target '427_GimbalControl'
+assembling startup_stm32f427xx.s...
+compiling bsp_adc.c...
+..\UserBsp\bsp_adc.h(21): warning:  #1-D: last line of file ends without a newline
+   #endif
+..\RmLib\STMGood.h(85): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\UserBsp\bsp_adc.c(19): warning:  #940-D: missing return statement at end of non-void function "Get_Adc1"
+  }
+..\UserBsp\bsp_adc.c(29): warning:  #940-D: missing return statement at end of non-void function "Get_Adc2"
+  }
+..\UserBsp\bsp_adc.c: 4 warnings, 0 errors
+compiling bsp_can.c...
+..\UserBsp\bsp_can.c(39): warning:  #177-D: variable "RxData2" was declared but never referenced
+    uint8_t RxData1[8],RxData2[8];
+..\UserBsp\bsp_can.c(40): warning:  #177-D: variable "Can2Header" was declared but never referenced
+    CAN_RxHeaderTypeDef Can1Header,Can2Header;
+..\UserBsp\bsp_can.c: 2 warnings, 0 errors
+compiling bsp_uart.c...
+..\RmLib\STMGood.h(85): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\UserBsp\bsp_uart.c: 1 warning, 0 errors
+compiling bsp_io.c...
+compiling ano_dt.c...
+..\RmLib\ano_dt.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Tasks\sick_task.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\DeCode\chassis_ms_decode.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\RmLib\ano_dt.c: 3 warnings, 0 errors
+compiling CRC_Check.c...
+compiling kalman_filter.c...
+compiling pid.c...
+..\RmLib\pid.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\RmLib\pid.c(52): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                pid->errD *= 0.1;
+..\RmLib\pid.c: 2 warnings, 0 errors
+compiling ramp.c...
+..\RmLib\ramp.h(42): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\RmLib\ramp.c: 1 warning, 0 errors
+compiling STMGood.c...
+..\RmLib\STMGood.h(85): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\RmLib\STMGood.c(52): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        _kp = _kp + 0.05;
+..\RmLib\STMGood.c(58): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     _kki = _kki + 0.05;
+..\RmLib\STMGood.c(64): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      _kkp = _kkp + 0.05;
+..\RmLib\STMGood.c(70): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          _kp = _kp - 0.05;
+..\RmLib\STMGood.c(76): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+       _kki = _kki - 0.05;
+..\RmLib\STMGood.c(81): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        _kkp = _kkp - 0.05;
+..\RmLib\STMGood.c: 7 warnings, 0 errors
+compiling imu_handle.c...
+..\RmLib\pid.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\RmLib\imu_handle.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\RmLib\imu_handle.c(214): warning:  #177-D: variable "hx" was declared but never referenced
+    float hx, hy, hz, bx, bz;
+..\RmLib\imu_handle.c(214): warning:  #177-D: variable "hy" was declared but never referenced
+    float hx, hy, hz, bx, bz;
+..\RmLib\imu_handle.c(214): warning:  #177-D: variable "hz" was declared but never referenced
+    float hx, hy, hz, bx, bz;
+..\RmLib\imu_handle.c: 5 warnings, 0 errors
+compiling Mpu6500.c...
+..\RmLib\pid.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\RmLib\Mpu6500.c(240): warning:  #223-D: function "printf" declared implicitly
+                printf("imu offline!\r\n");
+..\RmLib\Mpu6500.c(263): warning:  #223-D: function "init_quaternion" declared implicitly
+    init_quaternion();
+..\RmLib\Mpu6500.c: 3 warnings, 0 errors
+compiling sick_task.c...
+..\Tasks\sick_task.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\UserBsp\bsp_adc.h(21): warning:  #1-D: last line of file ends without a newline
+   #endif
+..\RmLib\pid.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\RmLib\imu_handle.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Tasks\sick_task.c(23): warning:  #1-D: last line of file ends without a newline
+   
+..\Tasks\sick_task.c: 5 warnings, 0 errors
+compiling gimbal_task.c...
+..\Tasks\sick_task.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\RmLib\pid.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Tasks\gimbal_task.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\RmLib\STMGood.h(85): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Tasks\gimbal_task.c(75): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+              gimbal_yaw.target -=0.07;
+..\Tasks\gimbal_task.c(80): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                 gimbal_yaw.target = (1.5+gimbal_yaw.left_limit +gimbal_yaw.right_limit)/2;
+..\Tasks\gimbal_task.c: 6 warnings, 0 errors
+compiling main_task.c...
+..\RmLib\pid.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\RmLib\imu_handle.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\RmLib\ano_dt.h(44): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\RmLib\STMGood.h(85): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\DeCode\chassis_ms_decode.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Tasks\main_task.c(112): warning:  #111-D: statement is unreachable
+          gimbal_yaw.mode = NORMAL_MODE;  
+..\Tasks\main_task.c(270): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         gimbal_yaw.total_angle = (moto_yaw.total_angle - moto_yaw.angle_offset)/5.49;   //   GYRO
+..\Tasks\main_task.c(310): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         location_ms.distance_A =  sqrt((22-pos_x/100)*(22-pos_x/100) + (43.54-pos_y/100)*(43.54-pos_y/100));
+..\Tasks\main_task.c(310): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         location_ms.distance_A =  sqrt((22-pos_x/100)*(22-pos_x/100) + (43.54-pos_y/100)*(43.54-pos_y/100));
+..\Tasks\main_task.c(315): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         location_ms.distance_B =  sqrt((22-pos_x/100)*(22-pos_x/100) + (pos_y+0.46)/100*(pos_y+0.46)/100);
+..\Tasks\main_task.c(315): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         location_ms.distance_B =  sqrt((22-pos_x/100)*(22-pos_x/100) + (pos_y+0.46)/100*(pos_y+0.46)/100);
+..\Tasks\main_task.c(320): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         location_ms.distance_C =  sqrt((22+pos_x/100)*(22+pos_x/100) + (pos_y+0.46)/100*(pos_y+0.46)/100);
+..\Tasks\main_task.c(320): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         location_ms.distance_C =  sqrt((22+pos_x/100)*(22+pos_x/100) + (pos_y+0.46)/100*(pos_y+0.46)/100);
+..\Tasks\main_task.c(325): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         location_ms.distance_D =  sqrt((22+pos_x/100)*(22+pos_x/100) + (43.54-pos_y/100)*(43.54-pos_y/100));
+..\Tasks\main_task.c(325): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         location_ms.distance_D =  sqrt((22+pos_x/100)*(22+pos_x/100) + (43.54-pos_y/100)*(43.54-pos_y/100));
+..\Tasks\main_task.c(357): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         location_ms.distance_E =  sqrt(pos_x/100*pos_x/100+ (21.54-pos_y/100)*(21.54-pos_y/100));
+..\Tasks\main_task.c(357): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+         location_ms.distance_E =  sqrt(pos_x/100*pos_x/100+ (21.54-pos_y/100)*(21.54-pos_y/100));
+..\Tasks\main_task.c(514): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                        gimbal_yaw.Target_angle[0] = location_ms.angle_C - 0.00474*location_ms.distance_C+22.38;
+..\Tasks\main_task.c(515): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                        gimbal_yaw.Target_angle[1] = location_ms.angle_D - 0.00474*location_ms.distance_D+22.38;
+..\Tasks\main_task.c(521): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                        gimbal_yaw.Target_angle[0] = location_ms.angle_B - 0.00474*location_ms.distance_B+22.38;
+..\Tasks\main_task.c(522): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                        gimbal_yaw.Target_angle[1] = location_ms.angle_D - 0.00474*location_ms.distance_D+22.38;                
+..\Tasks\main_task.c(528): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                        gimbal_yaw.Target_angle[0] = location_ms.angle_A - 0.00474*location_ms.distance_A+22.38;
+..\Tasks\main_task.c(529): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                        gimbal_yaw.Target_angle[1] = location_ms.angle_D - 0.00474*location_ms.distance_D+22.38;                
+..\Tasks\main_task.c(535): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                        gimbal_yaw.Target_angle[0] = location_ms.angle_A - 0.00474*location_ms.distance_A+22.38;
+..\Tasks\main_task.c(536): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                        gimbal_yaw.Target_angle[1] = location_ms.angle_C - 0.00474*location_ms.distance_C+22.38;                
+..\Tasks\main_task.c(542): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                        gimbal_yaw.Target_angle[1] = location_ms.angle_A - 0.00474*location_ms.distance_A+22.38; 
+..\Tasks\main_task.c(543): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                        gimbal_yaw.Target_angle[0] = location_ms.angle_B- 0.00474*location_ms.distance_B+22.38;
+..\Tasks\main_task.c(549): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                        gimbal_yaw.Target_angle[0] = location_ms.angle_B -0.00474*location_ms.distance_B+22.38;
+..\Tasks\main_task.c(550): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                        gimbal_yaw.Target_angle[1] = location_ms.angle_C - 0.00474*location_ms.distance_C+22.38;        
+..\Tasks\main_task.c(603): warning:  #223-D: function "abs" declared implicitly
+          if (abs(gimbal_yaw.total_angle-gimbal_yaw.Target_angle[1])<=15000/limit_distance)
+..\Tasks\main_task.c(607): warning:  #223-D: function "abs" declared implicitly
+          if (abs(gimbal_yaw.total_angle-gimbal_yaw.Target_angle[0])<=15000/limit_distance)
+..\Tasks\main_task.c(662): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                        gimbal_yaw.Target_angle[1] = location_ms.angle_C +1.5;                           
+..\Tasks\main_task.c(708): warning:  #223-D: function "abs" declared implicitly
+          if (abs(gimbal_yaw.total_angle-gimbal_yaw.Target_angle[1])<=15000/limit_distance)
+..\Tasks\main_task.c(712): warning:  #223-D: function "abs" declared implicitly
+          if (abs(gimbal_yaw.total_angle-gimbal_yaw.Target_angle[0])<=15000/limit_distance)
+..\Tasks\main_task.c(792): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+     { fric_data.speed = - 4779*sin(0.00046*location_ms.distance_E+0.173);}
+..\Tasks\main_task.c(877): warning:  #1-D: last line of file ends without a newline
+  */
+..\Tasks\main_task.c: 36 warnings, 0 errors
+compiling main.c...
+..\UserBsp\bsp_adc.h(21): warning:  #1-D: last line of file ends without a newline
+   #endif
+..\RmLib\STMGood.h(85): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\RmLib\pid.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Tasks\sick_task.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Tasks\gimbal_task.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/main.c: 5 warnings, 0 errors
+compiling gpio.c...
+compiling adc.c...
+compiling can.c...
+compiling dma.c...
+compiling freertos.c...
+..\UserBsp\bsp_adc.h(21): warning:  #1-D: last line of file ends without a newline
+   #endif
+..\RmLib\STMGood.h(85): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Tasks\sick_task.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Tasks\gimbal_task.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\RmLib\pid.h(61): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\RmLib\imu_handle.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\DeCode\chassis_ms_decode.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/freertos.c: 7 warnings, 0 errors
+compiling spi.c...
+compiling tim.c...
+compiling usart.c...
+compiling stm32f4xx_it.c...
+..\RmLib\STMGood.h(85): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\DeCode\chassis_ms_decode.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Src/stm32f4xx_it.c: 2 warnings, 0 errors
+compiling stm32f4xx_hal_msp.c...
+compiling stm32f4xx_hal_adc.c...
+compiling stm32f4xx_hal_adc_ex.c...
+compiling stm32f4xx_hal_can.c...
+compiling stm32f4xx_hal_spi.c...
+compiling stm32f4xx_hal_tim.c...
+compiling stm32f4xx_hal_tim_ex.c...
+compiling stm32f4xx_hal_uart.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling stm32f4xx_hal_flash.c...
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal_flash_ramfunc.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_exti.c...
+compiling system_stm32f4xx.c...
+compiling croutine.c...
+compiling event_groups.c...
+compiling list.c...
+compiling queue.c...
+compiling stream_buffer.c...
+compiling tasks.c...
+compiling timers.c...
+compiling cmsis_os.c...
+compiling heap_4.c...
+compiling port.c...
+compiling DR16_decode.c...
+compiling chassis_ms_decode.c...
+..\DeCode\chassis_ms_decode.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\DeCode\chassis_ms_decode.c: 1 warning, 0 errors
+linking...
+Program Size: Code=38152 RO-data=1968 RW-data=400 ZI-data=19128  
+FromELF: creating hex file...
+"427_GimbalControl\427_GimbalControl.axf" - 0 Error(s), 90 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\2019_LN\2019_ThrowRobot\427_GimbalControl\MDK-ARM\RTE
+  E:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  E:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>

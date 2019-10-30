@@ -1,0 +1,16 @@
+427_gimbalcontrol\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+427_gimbalcontrol\tasks.o: E:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+427_gimbalcontrol\tasks.o: E:\Keil\ARM\ARMCC\Bin\..\include\string.h
+427_gimbalcontrol\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+427_gimbalcontrol\tasks.o: E:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+427_gimbalcontrol\tasks.o: E:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+427_gimbalcontrol\tasks.o: ../Inc/FreeRTOSConfig.h
+427_gimbalcontrol\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+427_gimbalcontrol\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+427_gimbalcontrol\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+427_gimbalcontrol\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+427_gimbalcontrol\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+427_gimbalcontrol\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+427_gimbalcontrol\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+427_gimbalcontrol\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+427_gimbalcontrol\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h
