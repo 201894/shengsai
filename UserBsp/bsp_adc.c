@@ -3,7 +3,7 @@
  *  @version 4.0
  *  @date  June 2019
  *
- *  @brief receive uart message and send it to usart2 ,deal with the message in STMGood
+
  */
 #include "bsp_adc.h"
 #include "STMGood.h"

@@ -1,0 +1,6 @@
+--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1" -I..\\Inc
+-I E:\shengsai\MDK-ARM\RTE
+-I E:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+-I E:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1" --pd "STM32F427_437xx SETA 1"
+--list startup_stm32f427xx.lst --xref -o 427_gimbalcontrol\startup_stm32f427xx.o --depend 427_gimbalcontrol\startup_stm32f427xx.d "startup_stm32f427xx.s"

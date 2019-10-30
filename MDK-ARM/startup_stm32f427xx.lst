@@ -893,11 +893,11 @@ ARM Macro Assembler    Page 14
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
 erwork --depend=427_gimbalcontrol\startup_stm32f427xx.d -o427_gimbalcontrol\sta
-rtup_stm32f427xx.o -I..\\Inc -IE:\2019_LN\2019_ThrowRobot\427_GimbalControl\MDK
--ARM\RTE -IE:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include -IE:\Keil\ARM\PACK\Ke
-il\STM32F4xx_DFP\1.0.8\Device\Include --predefine="__MICROLIB SETA 1" --predefi
-ne="__UVISION_VERSION SETA 514" --predefine="_RTE_ SETA 1" --predefine="STM32F4
-27_437xx SETA 1" --list=startup_stm32f427xx.lst startup_stm32f427xx.s
+rtup_stm32f427xx.o -I..\\Inc -IE:\shengsai\MDK-ARM\RTE -IE:\Keil\ARM\PACK\ARM\C
+MSIS\4.2.0\CMSIS\Include -IE:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Inc
+lude --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 514" -
+-predefine="_RTE_ SETA 1" --predefine="STM32F427_437xx SETA 1" --list=startup_s
+tm32f427xx.lst startup_stm32f427xx.s
 
 
 
